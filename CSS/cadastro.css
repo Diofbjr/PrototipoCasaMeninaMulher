@@ -1,0 +1,46 @@
+.teste{
+    border: 1px solid red;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+}
+@media(min-width: 400px){
+    .botaovoltar{
+        display: flex;
+        justify-content: start;
+    }
+    @media(min-width: 400px){
+        .cadastrar{
+            display: flex;
+            justify-content: end;
+        }
+    }
+}
+.telamenu{
+    
+    float: right;
+}
+.voltarpagina{
+    text-decoration: none;
+    color: white;
+}
+.voltarpagina:hover{
+    text-decoration: none;
+    color: white;
+}
+.sairpagina{
+    font-size: 14px !important;
+    text-decoration: none;
+    
+}
+.sairpagina:hover{
+    font-size: 14px !important;
+    text-decoration: none;
+    
+}

@@ -1,0 +1,137 @@
+<div class="col-md-12 mb-5">
+    <h1 class="text-center">Ficha Cadastral</h1>
+</div>
+
+<div class="col-md-4 form-group">
+    <label for="">E-mail:</label>
+    <input class="form-control" type="email">
+</div>
+
+<div class="col-md-4 form-group">
+    <label for="">Contato:</label>
+    <input class="form-control" type="text">
+</div>
+
+<div class="col-md-4 form-group mb-4">
+    <label for="">N° de Emergência:</label>
+    <input class="form-control" type="text">
+</div>
+<!------------------------------------------------->
+<div class="col-md-2 form-group">
+    <label for="">CEP:</label>
+    <input class="form-control" type="text" name="" id="cep" placeholder="xxxxxxxx" required>
+</div>
+
+<div class="col-md-3 form-group mb-4">
+    <label for="">Cidade:</label>
+    <input class="form-control" type="text" name="" id="cidade">
+</div>
+
+<div class="col-md-2 form-group">
+    <label for="habitacao">Bairro:</label>
+    <input class="form-control" type="text" id="bairro">
+</div>
+
+<div class="col-md-3 form-group">
+    <label for="pontodereferencia">Endereço:</label>
+    <input class="form-control" type="text" id="endereco">
+</div>
+
+<div class="col-md-2 form-group mb-4">
+    <label for="">Nº Casa:</label>
+    <input class="form-control" type="text">
+</div>
+
+
+<!------------------------------------------------->
+<div class="col-md-3 form-group">
+    <label for="">Escolaridade:</label>
+    <select class="form-control" required>
+        <option value="" selected disabled>------------------------</option>
+        <option value="">Educação Infantil</option>
+        <option value="">Ensino Fundamental Incompleto</option>
+        <option value="">Ensino Fundamental Completo</option>
+        <option value="">Ensino Médio Incompleto</option>
+        <option value="">Ensino Médio Completo</option>
+        <option value="">Graduação Completa</option>
+        <option value="">Graduação Incompleta</option>
+        <option value="">Pós-Graduação Incompleta</option>
+        <option value="">Pós-Graduação Completa</option>
+        <option value="">Mestrado Incompleto</option>
+        <option value="">Mestrado Completo</option>
+        <option value="">Doutorado Incompleto</option>
+        <option value="">Doutorado Completo</option>
+        </select>
+</div>
+
+<div class="col-md-3 form-group">
+    <label for="ocupacao">Ocupação:</label>
+        <select class="form-control" id="ocupacao" required>
+            <option value="">------------------</option>
+            <option value="">Desempregada(o)</option>
+            <option value="">Empregada(o)</option>
+            <option value="">Estudante</option>
+        </select>
+</div>
+
+<div class="col-md-3 form-group">
+    <label for="setor">Setor:</label>
+        <select class="form-control" required>
+        <option value="">--------</option>
+        <option value="">Aluna</option>
+        <option value="">Coordenação</option>
+        <option value="">Doador(a)</option>
+        <option value="">Financeiro</option>
+        <option value="">Psicóloga(o)</option>
+        <option value="">Recursos Humanos</option>
+        <option value="">Serviços Gerais</option>
+        <option value="">Voluntária(o)</option>
+        </select>
+</div>
+
+<div class="col-md-3 form-group mb-4">
+    <label for="programasocial">Programa Social:</label>
+        <select class="form-control" id="programasocial" required>
+            <option value="">-------------</option>
+            <option value="">Auxilio Brasil</option>
+            <option value="">Bolsa Família</option>
+            <option value="">Bolsa Verde</option>
+            <option value="">Carteira de Idoso</option>
+            <option value="">Nenhum</option>
+            <option value="">Tarifa Social</option>
+        </select>
+</div>
+<!------------------------------------------------->
+<div class="col-md-4 form-group">
+    <label for="">Membros na família:</label>
+    <input class="form-control" type="text" placeholder="Nº de membros com que mora">
+</div>
+
+<div class="col-md-4 form-group">
+    <label for="">Renda:</label>
+    <select class="form-control" id="renda" required>
+        <option value="">--------------------</option>
+        <option value="">Até 1 salário mínimo</option>
+        <option value="">Até 2 salários mínimos</option>
+        <option value="">Até 3 salários mínimos</option>
+        <option value="">Mais de 4 salários mínimos</option>
+    </select>
+</div>
+
+<div class="col-md-4 form-group mb-5">
+    <label for="">Religião:</label>
+    <input class="form-control" type="text" placeholder="Religião a qual pertence">
+</div>
+
+
+<div class="col-md-6 ml-auto botaovoltar">
+    <button class="btn btn-lg btn-primary"
+        onclick="avancarPagina('formulario1.html')">Voltar</button>
+    </div>
+<div class="col-md-6 mr-auto cadastrar">
+    <button class="btn btn-lg btn-primary"
+        onclick="cadastrar()">Cadastrar</button>
+    </div>
+
+<script src="../JAVASCRIPT/cadastramento.js"></script>
+<script src="../JAVASCRIPT/botaoDeAvanco.js"></script>

@@ -1,0 +1,56 @@
+/*Inicio tela de login*/
+#logar{
+    font-family: 'Trebuchet MS', 'Helvetica', 'sans-serif';
+    background: #643d87 url(../IMAGENS/fundo.jpg) no-repeat top;
+}
+#containerlogin{
+    width: 400px;
+    height: 319px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+a.esquecisenha{
+    text-decoration: none;
+    color: rgb(156, 35, 226);
+}
+#containerlogin img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+input.login{
+   height: 40px;
+   width: 80%;
+   margin-bottom: 10px;
+   background-color: #fff;
+   padding-left: 40px;
+   border: none; 
+   background-repeat: no-repeat;
+   background-position: 10px;
+}
+input.email{
+    background-image: url(../IMAGENS/icone-usuario.png);
+}
+input.senha{
+    background-image: url(../IMAGENS/icone-cadeado.png);
+}
+.clicar{
+    margin-top: 20px;
+    
+}
+a.click{
+    padding: 3% 35% 3% 35%;
+    color: #fff;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    text-align: center;
+    text-decoration: none;
+    
+}
+/*Final tela de login*/
+
+/*Inicio do cadastramento*/

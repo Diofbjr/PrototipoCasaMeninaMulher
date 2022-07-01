@@ -44,3 +44,42 @@ section{
     text-decoration: none;
     
 }
+.links{
+    text-decoration: none;
+    color: #c7c7c7;
+    font-size: 20px;
+}
+
+.botaoescolha, .botaoescolha:hover{
+    background: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+.botaoescolha:hover{
+    background: #003665;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.centered{
+    margin: 0 auto !important;
+    float: none !important;
+    margin-top: 2% !important; 
+
+}
+
+.foto{
+    margin: 0 31%;
+}
+.usuario{
+    margin: 0 31%;
+}
+.btn{
+    margin: 0 16%
+}

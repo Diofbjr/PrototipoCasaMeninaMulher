@@ -65,3 +65,10 @@ body.dark{
     display:flex;
     justify-content: flex-end;
 }
+input[type='file']{
+    display: none;
+}
+
+
+
+

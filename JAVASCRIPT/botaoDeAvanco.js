@@ -80,3 +80,8 @@ ajax.send();
                 
             document.getElementById('cep').addEventListener('focusout', pesquisaCep);
     }
+
+
+    function esqueciSenha(){
+        let senha = prompt('Informe o e-mail')
+    }
